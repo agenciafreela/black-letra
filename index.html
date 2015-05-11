@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Black Letra</title>
-
-  
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header>
-    <img src="images/title.jpg" alt="Tipogrids São Paulo" />
+    <img src="images/title.jpg" alt="Tipogrids São Paulo" class="img-responsive"/>
   </header>
-  <article>
-    <img src="images/mandala.jpg" alt="Como dar os primeiros passos" />
-    <p>
+
+
+  <article class="container">
+    <img src="images/mandala.jpg" alt="Como dar os primeiros passos" class="col-sm-12 col-lg-6 img-responsive"  />
+    <p class="col-sm-12 col-lg-6">
       Dar o primeiro passo na criação de fontes tipográficas pode ser um
       desafio que intimida mesmo designers gráficos experientes. O objetivo
       desse workshop é proporcionar esse primeiro mergulho criativo na
@@ -23,39 +25,48 @@
   </article>
 
   <nav>
-    <ul>
-      <li><img src="images/01.jpg" alt=""></li>
-      <li><img src="images/02.jpg" alt=""></li>
-      <li><img src="images/03.jpg" alt=""></li>
-    </ul>
+    <div class="col-lg-4 no-padding"><img src="images/01.png" alt="" class="img-responsive"></div>
+    <div class="col-lg-4 no-padding"><img src="images/02.png" alt="" class="img-responsive"></div>
+    <div class="col-lg-4 no-padding"><img src="images/03.png" alt="" class="img-responsive"></div>
   </nav>
 
   <article class="with-background" id="proposal">
-    <header>
-      <h4>PROPOSTA DO CURSO</h4>
-    </header>
-    <p>
-      Durante o workshop vamos iniciar o desenvolvimento de uma fonte tipográfica
-       usando como base um grid geométrico. Essa técnica facilita o processo e
-       torna o desenho de letras mais acessível para principiantes, além de
-       proporcionar resultados muito interessantes.
-    </p>
-    <p>
-      A turma é super reduzida, são apenas 15 vagas para que os alunos recebam
-      acompanhamento e suporte do professor no desenvolvimento dos seus
-      projetos.
-    </p>
-    <p>
-      Os participantes criarão sua própria fonte e aprenderão conceitos
-      fundamentais do ofício tipográfico:
-    </p>
-    <p>
-      <span>
-        Geometria x Tipografia | Efeitos óticos | Parâmetros
-        tipográficos | Interpolação | Digitalização de letras | Cases/exemplos históricos
-      </span>
-    </p>
+    <div class="container">
+      <header>
+        <h4>PROPOSTA DO CURSO</h4>
+      </header>
+      <p>
+        Durante o workshop vamos iniciar o desenvolvimento de uma <br>
+        fonte tipográfica usando como base um grid geométrico. Essa <br>
+        técnica facilita o processo e torna o desenho de letras mais <br>
+        acessível para principiantes, além de proporcionar resultados <br>
+        muito interessantes.
+      </p>
+      <p>
+        A turma é super reduzida, são apenas <strong>15 vagas</strong> para que os <br>
+        alunos recebam acompanhamento e suporte do professor no <br>
+        desenvolvimento dos seus projetos.
+      </p>
+
+      <hr>
+
+      <p>
+        Os participantes criarão sua própria fonte e aprenderão <br>
+        conceitos fundamentais do ofício tipográfico:
+      </p>
+
+      <ul>
+        <li>Geometria x Tipografia</li>
+        <li>Interpolação</li>
+        <li>Efeitos óticos</li>
+        <li>Digitalização de letras</li>
+        <li>Parâmetros tipográficos</li>
+        <li>Cases/exemplos históricos</li>
+      </ul>
+
+    </div>
   </article>
+
 
   <section class="row">
     <div class="col-lg-4"><img src="images/b01.jpg" alt="Escrita" class="img-responsive"></div>
@@ -140,6 +151,6 @@
       <button type="submit">ENVIAR</button>
     </form>
   </section>
-
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>

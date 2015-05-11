@@ -1,0 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+html, body{
+  min-height: 100%;
+}
+
+.no-padding{
+  padding: 0 !important;
+}
+
+body>header{
+  width: 100%;
+  background: black;
+}
+
+.with-background{
+  background: url(../images/bg.png) repeat;
+}
+article#proposal>div{
+  width: 600px;
+  margin:0 auto;
+  border: 1px #faf dashed;
+}
+
+article#proposal>div>header{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: yellow;
+}
+article#proposal>div>header>h4{
+  margin-top: 0;
+  padding: 10px;
+}
